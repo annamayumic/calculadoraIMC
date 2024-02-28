@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: white;
+    justify-content: center;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(36, 36, 62)) ;
+}
+.corpo{
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    align-content: center;
+    width: 400px;
+    height: fit-content;
+    gap: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    background-color:  rgba(255, 255, 255, 0.066);
+    box-shadow: 5px ;
+}
+input{
+    padding: 5px 30px;
+    background-color: rgb(20, 17, 28);
+    border: none;
+    border-radius: 10px;
+    color: azure;
+    align-items: center;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-bottom: 45px;
+    padding: 5px ;
+    width: 250px;
+    position: relative;
+    justify-content: center;
+    transition: 0.5s;
+    align-items: center;
+}
+button{
+    margin-top: 20px;
+    padding:  5px 30px;
+    color: rgb(20, 17, 28);
+    background-color: azure;
+    border-radius: 10px;
+    border: none;
+    font-size: 1em;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: rgb(96, 94, 108);
+    color: azure;
+}
+#title{
+    padding-bottom: 20px;
+}
+.input{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
